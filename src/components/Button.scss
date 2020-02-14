@@ -1,0 +1,42 @@
+@import '../index.scss';
+
+Button {
+  border-radius: 8px;
+  color: $brand-white;
+  cursor: pointer;
+  box-shadow: 0;
+  transition: 
+    background-color .5s ease,
+    box-shadow 0.3s ease-in-out;
+}
+
+// Button Styles
+
+.primary {
+  background-color: $primary-color;
+  &:hover{
+    background-color: $primary-color-active;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+}
+.danger {
+  background-color: $danger-color;
+  &:hover{
+    background-color: $danger-color-active;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+}
+
+// Button Sizes
+
+.medium {
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+.large {
+  font-size: 24px;
+  padding: 16px 24px;
+}
