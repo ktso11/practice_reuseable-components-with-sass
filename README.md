@@ -1,8 +1,9 @@
 
-Practice building reusable components 
+## Practice building reusable components 
 
-##### BUTTON props variant
+#### BUTTON props variant
 >btnStyle - button style variant. Takes one of: "primary", "danger" (fall back to primary)
+
 >btnSize - button size variant. Takes one of: "medium", "large" (fall back to medium)
 
 
