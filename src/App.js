@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
 import Button from './components/Button';
+import Tabcard from './components/Tabcard';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           btnStyle = "primary"
           btnSize = "large"
         >Button</Button>
+        <Tabcard></Tabcard>
       </div>
     );
   }
