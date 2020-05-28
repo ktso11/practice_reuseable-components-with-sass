@@ -10,6 +10,10 @@ Button {
     box-shadow 0.3s ease-in-out;
 }
 
+//isdisabled state
+//use design semantics mixin in css (spacing [spacing--a] and color [primary/danger/warning/accent])
+//add accessbility (aria, tab)
+
 // Button Styles
 
 .primary {
@@ -25,7 +29,6 @@ Button {
   &:hover{
     background-color: $danger-color-active;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
   }
 }
 
