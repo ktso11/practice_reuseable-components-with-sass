@@ -17,8 +17,7 @@ const SIZES = [
 
 const Button = ({
   //passing props
-    children, 
-    type, 
+    text, 
     onClick, 
     btnStyle, 
     btnSize
@@ -31,20 +30,11 @@ const Button = ({
     return (
       <button 
         className={`Button ${checkBtnSize} ${checkBtnStyle}`}
-        onClick={onClick} 
-        type={type}>
-        {children}
+        onClick={onClick}>
+        {text}
       </button>
     )
   }
-
-
-
-
-
-
-
-
 
 
 
